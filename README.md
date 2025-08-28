@@ -6,7 +6,7 @@ Database: library_db
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
-![LIBRARY IMAGE]([https://github.com/username/repo-name/assets/123456789/abcdefg](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library.jpg))
+![LIBRARY IMAGE](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library.jpg)
 
 Objectives
 Set up the Library Management System Database: Create and populate the database with tables for branches, employees, members, books, issued status, and return status.
@@ -16,7 +16,7 @@ Advanced SQL Queries: Develop complex queries to analyze and retrieve specific d
 Project Structure
 1. Database Setup
    
-![ERD IMAGE]([https://github.com/username/repo-name/assets/123456789/abcdefg](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library1.png)
+![ERD IMAGE](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library1.png)
 Database Creation: Created a database named library_db.
 Table Creation: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 CREATE DATABASE library_db;
