@@ -114,14 +114,13 @@ SELECT * FROM issued_status;
 SELECT * FROM branch;
 
 USE library;
-```sql
+
 -- Task 1: Create a New Book Record
 INSERT INTO books(isbn, book_title, category, rental_price, status, author, publisher)
 VALUES
 ('978-1-60129-456-2','to kill a mocking bird','classic','6.00','yes','Harper Lee','J.B. Lippincott & Co.');
 
 SELECT * FROM books;
-sql
 
 -- Task 2: Update an Existing Member's Address
 UPDATE members
