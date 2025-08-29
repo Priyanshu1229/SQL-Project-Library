@@ -114,7 +114,7 @@ SELECT * FROM branch;
 
 USE library;
 
-
+# sql queries
 -- Task 1: Create a New Book Record
 INSERT INTO books(isbn, book_title, category, rental_price, status, author, publisher)
 VALUES
@@ -122,6 +122,7 @@ VALUES
 
 SELECT * FROM books;
 
+# sql queries
 -- Task 2: Update an Existing Member's Address
 UPDATE members
 SET member_address ='125 main st'
