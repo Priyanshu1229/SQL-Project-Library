@@ -18,6 +18,7 @@ Project Structure
    
 ![ERD IMAGE](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library1.png)
 Database Creation: Created a database named library_db.
+```sql
 Table Creation: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 CREATE DATABASE library_db;
 
