@@ -7,14 +7,12 @@ Level: Intermediate
 
 ![LIBRARY IMAGE](https://github.com/Priyanshu1229/SQL-Project-Library/blob/main/library.jpg)
 
-Objectives
+Objectives  
+
 **Set up the Library Management System Database:** Create and populate the database with tables for branches, employees, members, books, issued status, and return status.  
-
 **CRUD Operations:** Perform Create, Read, Update, and Delete operations on the data.  
-
 **CTAS (Create Table As Select):** Utilize CTAS to create new tables based on query results.  
-
-Advanced SQL Queries: Develop complex queries to analyze and retrieve specific data.
+Advanced SQL Queries: Develop complex queries to analyze and retrieve specific data.  
 **Project Structure**
 1. Database Setup
    
