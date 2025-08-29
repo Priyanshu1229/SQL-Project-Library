@@ -105,22 +105,32 @@ Read: Retrieved and displayed data from various tables.
 Update: Updated records in the employees table.
 Delete: Removed records from the members table as needed.
 
-select * from empolyee;
-select *from  books;
-select *from  members ;
-select *from  return_status;
-select *from issued_status;
-select *from branch;
-use library;
--------------------------------------------------
--- CRUD OPERATIONS
--------------------------------------------------
+SELECT * FROM employee;
+SELECT * FROM books;
+SELECT * FROM members;
+SELECT * FROM return_status;
+SELECT * FROM issued_status;
+SELECT * FROM branch;
+
+USE library;
+
 
 -- Task 1: Create a New Book Record
+INSERT INTO books(isbn, book_title, category, rental_price, status, author, publisher)
+VALUES
+('978-1-60129-456-2','to kill a mocking bird','classic','6.00','yes','Harper Lee','J.B. Lippincott & Co.');
 
-insert into books(isbn, book_title,category,rental_price,status,author, publisher)values
-('978-1-60129-456-2','to kil a mocking bird','classic' ,'6.00','yes','harpeer Lee','j.b.Lippincott&co.');
-select *from  books;
+SELECT * FROM books;
+
+-- Task 2: Update an Existing Member's Address
+UPDATE members
+SET member_address ='125 main st'
+WHERE member_id='C101';
+SELECT * FROM members;
+
+-- Task 3: Delete a Record from the Issued Status Table
+DELETE FROM issued_status
+WHERE issued_id='IS107';
 
 -- Task 2: Update an Existing Member's Address
 update members
